@@ -1,0 +1,70 @@
+
+:root{
+    --primary-color:#199DE5;
+    }
+.my{
+    width: fit-content;
+    height: fit-content;
+box-shadow: 10px 15px 8px rgb(247, 245, 245);
+    }
+.about{
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.about:hover{
+    background-color: rgb(209, 205, 205);
+    color: black;
+}
+.about h3{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.my p{
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 5px;
+}
+.photo{    
+    display:grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px;
+    margin:20px 20px 5px 20px;
+}
+.pic1{
+    background-image: url("https://kyrgyzstan-tourism.com/wp-content/uploads/2019/04/Batken-Flower1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.pic2{
+    background-image: url("https://www.advantour.com/img/kyrgyzstan/legends/kyrgyzstan-legends-issyk-kul-legend.jpg");
+background-position: center;
+background-size: cover;
+}
+.pic3{
+    background-image: url("https://movegreen.kg/wp-content/uploads/2017/02/gor-ver1.jpg");
+    background-position: center;
+    background-size: cover;
+}          
+.pic4{
+    background-image: url("https://www.pandotrip.com/wp-content/uploads/2018/09/Seigantoji-Pagoda-and-Nachi-Falls-in-Nacho-Japan.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.pic5{
+    background-image: url("https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/447b1cd2-14e4-4e50-949e-eb3297995b5f/dc84f4b3-d066-4814-aa11-c537f94effc1/1280x720/match/image.jpg");
+    background-position: center;
+    background-size: cover;
+}       
+.pic6{
+background-image: url("https://lh3.googleusercontent.com/p/AF1QipMAb5krSH7QyrXfoU0OLfw-ahq2tu-cfzLMCGSx=s1600-w1600");
+background-position: center;
+background-size: cover;
+}         
+@media (max-width:400) {
+    .photo{
+        flex-direction:column;
+    }
+}
